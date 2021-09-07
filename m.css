@@ -1,0 +1,78 @@
+body {
+    font-family: Verdana, Arial, sans-serif;
+    padding-left: 2em;
+    padding-right: 2em; 
+    box-sizing: border-box;
+}
+
+#wrapper{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F5F5F5;
+    padding: 20px;
+}
+
+header{
+    text-align: center;
+}
+
+
+#result{
+    margin-top: 20px;
+}
+
+.a_div{
+    display: inline-block;
+}
+
+.a_div2{
+    float: left;
+}
+
+.a_div1{
+    
+}
+
+.a_innerDiv{
+    display: inline-block;
+    padding: 50px;
+}
+
+.a_innerrDiv1{
+    float: left;
+}
+.a_innerrDiv2{
+    display: block;
+    float: right;
+}
+
+.a_innerDiv1{
+    
+}
+.a_innerDiv2{
+  
+}
+.a_innerDiv3{
+    
+}
+
+input[type="button"]{
+    width: 100%;
+    height: 25px;
+}
+
+#a_loanAmount{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#a_interestRate{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#a_nofYear{
+    margin-top: 12px;
+    margin-bottom: 10px;
+}

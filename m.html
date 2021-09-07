@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EMI Calculator</title>
+        <link rel="stylesheet" type="text/css" href="m.css">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="m.js"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h2>EMI Calculator</h2>
+            </header>
+            <nav></nav>
+            <main>
+                <div class="a_div a_div1">
+                    <div class="a_innerrDiv1">
+                        <h4>Loan Amount</h4>
+                        <h4>Interest Rate</h4>
+                        <h4>Number of Years</h4>
+                        <br>
+                    </div>
+                    <div class="a_innerrDiv2">
+                        <input type="text" id="a_loanAmount"><br>
+                        <input type="text" id="a_interestRate"><br>
+                        <input type="text" id="a_nofYear"><br>
+                    </div>
+                    <input type="button" value="Calculate" id="result">
+                </div>
+                <div class="a_div a_div2">
+                    <div class="a_innerDiv a_innerDiv1">
+                        <h3 id="r1">&#36;</h3>
+                        <h5>Monthly Payments</h5>
+                    </div>
+                    <div class="a_innerDiv a_innerDiv2">
+                        <h3 id="r2">&#37;</h3>
+                        <h5>Total Interest</h5>
+                    </div>
+                    <div class="a_innerDiv a_innerDiv3">
+                        <h3 id="r3">&#36;</h3>
+                        <h5>Total Amount</h5>
+                    </div>
+                </div>
+            </main>
+            <footer></footer>
+        </div>
+    </body>
+</html>
